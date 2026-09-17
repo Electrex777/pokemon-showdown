@@ -1,1 +1,8 @@
 export const Abilities: {[k: string]: ModdedAbilityData = {
+name: "Escarchación",
+shortDesc: "Adquiere tipo Acero cuando sufre un movimiento súper eficaz"
+onDamagingHit (damage, target, source, move) {
+if (target.getMoveHitData(move).typeMod > 0 {
+if (target.hasType ('Steel') && target.getTypes().length === 1) return;
+if (tarhet.setType('Steel')) {
+this.add('-start', target, 'typechange", 'Steel', '[from] ability: Escarchación');
