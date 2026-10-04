@@ -594,4 +594,57 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 65, atk: 95, def: 85, spa: 140, spd: 140, spe: 75},
 		abilities: {0: "Oscuridad", 1: "Absorbe Tinieblas", H: "Luna de Sombras"},
 	},
-	f
+	fyr: {
+		name: "Fyr",
+		types: ["Fire", "Fighting"],
+		baseStats: {hp: 85, atk: 139, def: 80, spa: 86, spd: 95, spe: 115},
+		abilities: {0: "Audaz", 1: "Obediente", H: "Territorial"},
+	},
+	radical: {
+		name: "Radical",
+		types: ["Dragon", "Psychic"],
+		baseStats: {hp: 98, atk: 55, def: 78, spa: 114, spd: 85, spe: 170},
+		abilities: {0: "Impulso", 1: "Pluma Vexilo", H: "Matemático"},
+	},
+	meteorized: {
+		name: "Meteorized",
+		types: ["Rock", "Psychic"],
+		baseStats: {hp: 55, atk: 142, def: 96, spa: 81, spd: 96, spe: 130},
+		abilities: {0: "Cero Fricción", 1: "Visión Planetaria", H: "Regenerador"},
+	},
+	cordipain: {
+		name: "Cordipain",
+		types: ["Electric", "Dark"],
+		baseStats: {hp: 115, atk: 150, def: 150, spa: 45, spd: 120, spe: 100},
+		abilities: {0: "Miedo Conocido", 1: "Poder Fusión"},
+	},
+	unnovofobos: {
+		name: "Unnovofobos",
+		types: ["Ground", "Psychic"],
+		baseStats: {hp: 115, atk: 45, def: 150, spa: 150, spd: 120, spe: 100},
+		abilities: {0: "Miedo Desconocido", 1: "Poder Reacción"},
+	},
+	livyathanis: {
+		name: "Livyathanis",
+		types: ["Water"],
+		baseStats: {hp: 140, atk: 120, def: 110, spa: 120, spd: 110, spe: 80},
+		abilities: {0: "Voluntad Original", 1: "Miedo Final"},
+	},
+	domzeel: {
+		name: "Domzeel",
+		types: ["Dragon", "Steel"],
+		baseStats: {hp: 120, atk: 138, def: 120, spa: 40, spd: 115, spe: 117},
+		abilities: {0: "Añoración de Destrucción"},
+	},
+	sufrabion: {
+		name: "Sufrabion",
+		types: ["Fighting", "Rock"],
+		baseStats: {hp: 100, atk: 145, def: 82, spa: 103, spd: 82, spe: 168},
+		abilities: {0: "Roca de Gloria"},
+	},
+	warrairch: {
+		name: "Warrairch",
+		types: ["Fire", "Ghost"],
+		baseStats: {hp: 150, atk: 55, def: 150, spa: 112, spd: 150, spe: 63},
+		abilities: {0: "Metal de Pena"},
+	},
